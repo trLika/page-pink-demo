@@ -1,7 +1,8 @@
 h1{
 text-align: center;
 font-style: italic;
-font-size: 100px;
+/*font-size: 100px; a changer*/
+font-size: 8vw;
 }
 body{
     background-color: plum;
@@ -25,7 +26,8 @@ body{
     
     padding: 30px; /* Espacement intérieur pour que le texte ne touche pas les bords */
     margin: 40px auto; /* Marge autour et centrage horizontal */
-    max-width: 800px; /* Limiter la largeur de la carte */
+    /* max-width: 800px; Limiter la largeur de la carte */
+    max-width: 90%;
 }
 footer{
     text-decoration: double;
