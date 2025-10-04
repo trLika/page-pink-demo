@@ -9,6 +9,7 @@ body{
     background-image:url("cancer.jpg");
    background-size: cover;
    background-repeat: initial;
+    min-height: 80vh; /* Cette propriété est aussi très importante */
 
     border-radius: 12px; /* Coins arrondis pour la carte */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Grande ombre portée pour un effet flottant */
