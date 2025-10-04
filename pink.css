@@ -1,3 +1,10 @@
+html, body {
+    height: 100%; /* S'assure que les deux éléments prennent toute la hauteur de la fenêtre */
+    margin: 0;   /* Supprime les marges par défaut qui peuvent créer un défilement */
+    padding: 0;  /* Supprime les paddings par défaut */
+}
+
+
 h1{
 text-align: center;
 font-style: italic;
@@ -9,16 +16,18 @@ body{
     background-image:url("cancer.jpg");
    background-size: cover;
    background-repeat: initial;
-    min-height: 80vh; /* Cette propriété est aussi très importante */
+   background-position: center;
+    
 
-    border-radius: 12px; /* Coins arrondis pour la carte */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Grande ombre portée pour un effet flottant */
+    /*border-radius: 12px; /* Coins arrondis pour la carte */
+    /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Grande ombre portée pour un effet flottant */
     
     /* GESTION DE LA TAILLE ET DU CENTRAGE */
-    margin: 40px auto; /* Marge au-dessus/dessous et centrage automatique */
+    /*margin: 40px auto; /* Marge au-dessus/dessous et centrage automatique */
     padding: 30px; /* Espace intérieur pour le contenu */
     max-width: 900px; /* Limite la largeur de la page/carte */
-    min-height: 80vh; /* S'assure qu'elle est visible même avec peu de contenu */
+    /*min-height: 80vh; /* S'assure qu'elle est visible même avec peu de contenu */
+margin: 0 auto;
 }
 .carte {
     background-color: pink;
